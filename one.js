@@ -11,7 +11,6 @@ const port = 3000;
 
 // Enable CORS for cross-origin requests (optional, only needed if frontend and backend are separate)
 app.use(cors());
-
 // Middleware to parse form data
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public'))); // Serve static files like the HTML form
