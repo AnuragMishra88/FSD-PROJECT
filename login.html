@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+            margin: 0;
+            background-image: url(investment-choice-patient-grow-money-markets.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+             
+
+        .login-container {
+            background-color: rgb(24, 177, 24);
+            padding: 20px;
+            margin-left: -1000px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+            border-radius: 30px;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #121212;
+        }
+
+        .input-field {
+            width: 370px;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: #2f00ff;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #e76021;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .signup-link {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #090809;
+        }
+
+        .signup-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="your-login-handler.php" method="POST">
+            <input type="text" class="input-field" name="username" placeholder="Username" required><br>
+            <input type="password" class="input-field" name="password" placeholder="Password" required><br>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+        <a href="registration.html" class="signup-link" target="_blank">Don't have an account? Sign up</a>
+    </div>
+
+</body>
+</html>

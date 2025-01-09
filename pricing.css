@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f100f;
+    padding: 20px 40px;
+}
+
+.navbar .logo h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+.pricing-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.pricing-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background-color: #f1c1c1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight:bolder;
+}
+
+.pricing-card .price {
+    font-size: 28px;
+    font-weight: 600;
+    color: #101ebd;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.pricing-card ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #0b0a0a;
+}
+
+.pricing-card .btn {
+    background-color: #0e0f0f;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.pricing-card .btn:hover {
+    background-color: #45a049;
+}
+
+
+footer {
+    background-color: #0a0a0a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    font-size: 14px;
+}
