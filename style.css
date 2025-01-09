@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(13, 13, 13);
+    margin-top: 20px;
+    margin-left: 30px;
+    /* height: 100%; */
+    background-image: url('./1712319390256.png');
+    background-size: cover;
+    background-repeat: repeat;  
+    background-position: center;
+    animation: slideBG 15s linear infinite;
+   
+}
+  
+  @keyframes slideBG {
+    from {
+      background-position: 100px 100px;
+    }
+    to {
+      background-position: 1500px 900px; 
+    }
+  }
+.navbar{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+.nav{
+    text-decoration: none;
+    color: hotpink;
+}
+.btn{
+    margin-top: -7px;
+    margin-left: -40px;
+    border-radius: 8px;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+    border-color: green;
+    margin-right: 10px;
+    border-width: 3.5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav:hover{
+    text-decoration: underline;
+    color: white;
+
+}
+.btn:hover{
+    box-shadow: 100px;
+    background-color: greenyellow;
+    
+}
+.center{
+    font-size: 30px;
+    color: white;
+    text-align: left bottom;
+    padding-top: 100px;
+    margin-left:30px;
+    margin-right: 50px;
+}
+.center .para{
+    font-size: 20px;
+}
+.btn1{
+    height: 50px;
+    width: 100px;
+    margin-left:40px ;
+    border-radius: 15px;
+    background-color: orangered;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.btn2{
+    height: 50px;
+    width: 110px;
+    margin-left:40px ;
+    border-radius: 15px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+#demo{
+    color: lightgreen;
+}
+
+.con{
+    position: relative;
+    padding-left: 100px;
+  }
+  
+  .black-box {
+    position: relative;
+    border: 2px solid black;
+    margin: 50px;
+    border-radius: 20px;
+  }
+  
+  .gray-box {
+    position: absolute;
+    background: lightgray;
+    left: 960px;
+    top: -30px;
+    border-radius: 20px;
+  }
+  
+  .green-box {
+    position: absolute;
+    background: lightgreen;
+    left: 1000px;
+    border-radius: 20px;
+    top: 200px;
+    
+  }
